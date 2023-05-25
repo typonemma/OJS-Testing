@@ -1,0 +1,170 @@
+{
+    "contractName": "MyContract",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "helloWorld",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "pure",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"helloWorld\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/glent/OneDrive/Documents/SmartContract/index.sol\":\"MyContract\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/glent/OneDrive/Documents/SmartContract/index.sol\":{\"keccak256\":\"0xdc326e9a0ef4f07292138b4842d8127163e222defc8d5c81ccb4a56544feedf2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://59504e78dbaf0c42d755eb97a4625739ffb34884822c45b158400cbdb18c38a9\",\"dweb:/ipfs/QmbU5RRkTNnn69sD8z7JFTHM11FoAMuBJrQ6fpkMfj9MNK\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5060e58061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063c605f76c14602d575b600080fd5b604080518082018252600d81526c48656c6c6f2c20576f726c642160981b60208201529051605a91906063565b60405180910390f35b600060208083528351808285015260005b81811015608e578581018301518582016040015282016074565b506000604082860101526040601f19601f830116850101925050509291505056fea2646970667358221220abddf9bc36ec2fdcdea15be49978a673f9462371c4000ddda32192ca1389e11a64736f6c63430008130033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c8063c605f76c14602d575b600080fd5b604080518082018252600d81526c48656c6c6f2c20576f726c642160981b60208201529051605a91906063565b60405180910390f35b600060208083528351808285015260005b81811015608e578581018301518582016040015282016074565b506000604082860101526040601f19601f830116850101925050509291505056fea2646970667358221220abddf9bc36ec2fdcdea15be49978a673f9462371c4000ddda32192ca1389e11a64736f6c63430008130033",
+    "sourceMap": "58:129:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "58:129:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;85:99;154:22;;;;;;;;;;;-1:-1:-1;;;154:22:0;;;;85:99;;;;154:22;85:99;:::i;:::-;;;;;;;;14:548:1;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;298:3;483:1;478:2;469:6;458:9;454:22;450:31;443:42;553:2;546;542:7;537:2;529:6;525:15;521:29;510:9;506:45;502:54;494:62;;;;14:548;;;;:::o",
+    "sourcePath": "c:/Users/glent/OneDrive/Documents/SmartContract/index.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.19+commit.7dd6d404"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/glent/OneDrive/Documents/SmartContract/index.sol",
+        "exportedSymbols": {
+            "MyContract": [
+                10
+            ]
+        },
+        "id": 11,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "33:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "MyContract",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 10,
+                "linearizedBaseContracts": [
+                    10
+                ],
+                "name": "MyContract",
+                "nameLocation": "67:10:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 8,
+                            "nodeType": "Block",
+                            "src": "143:41:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "hexValue": "48656c6c6f2c20576f726c6421",
+                                        "id": 6,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "kind": "string",
+                                        "lValueRequested": false,
+                                        "nodeType": "Literal",
+                                        "src": "161:15:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_stringliteral_acaf3289d7b601cbd114fb36c4d29c85bbfd5e133f14cb355c3fd8d99367964f",
+                                            "typeString": "literal_string \"Hello, World!\""
+                                        },
+                                        "value": "Hello, World!"
+                                    },
+                                    "functionReturnParameters": 5,
+                                    "id": 7,
+                                    "nodeType": "Return",
+                                    "src": "154:22:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "c605f76c",
+                        "id": 9,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "helloWorld",
+                        "nameLocation": "94:10:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 2,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "104:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 5,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 4,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 9,
+                                    "src": "128:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 3,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "128:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "127:15:0"
+                        },
+                        "scope": 10,
+                        "src": "85:99:0",
+                        "stateMutability": "pure",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 11,
+                "src": "58:129:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "33:154:0"
+    },
+    "functionHashes": {
+        "helloWorld()": "c605f76c"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "45800",
+            "executionCost": "99",
+            "totalCost": "45899"
+        },
+        "external": {
+            "helloWorld()": "infinite"
+        }
+    }
+}
